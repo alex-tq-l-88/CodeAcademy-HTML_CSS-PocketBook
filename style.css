@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+}
+
+/*---BODY----*/
+body{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(http://cdn.psfk.com/wp-content/uploads/2015/08/Round-Ups.jpg) no-repeat center center;
+  background-size:cover;
+  background-color: #544E49;
+}
+
+/*----HEADER----*/
+.header {
+  margin:0;
+  text-align:center;
+	padding:20px 0px;}
+
+.header img{
+  height:80px;
+  margin:0px;
+}
+
+.header .container {
+  border-bottom: 1px solid white;
+  padding: 20px 0px;
+}
+
+/*----MAIN---*/
+.main h1, label {
+  color:white;
+}
+
+.main .btn{
+  background-color:#6DC84A;
+  color:white;
+  margin:20px 0px;
+}
+
+/*------FOOTER----*/
+.footer .container{
+  padding:20px 0px;
+  border-top: 1px solid white;
+}
+
+.footer ul{
+  color:white;
+  list-style:none;
+}
+
+.footer li{
+  display:inline-block;
+  margin: 0px 30px;
+}
